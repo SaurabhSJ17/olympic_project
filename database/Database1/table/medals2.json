@@ -1,7 +1,7 @@
 {
-	"name": "medals",
+	"name": "medals2",
 	"properties": {
-		"Name": "medals",
+		"Name": "medals2",
 		"EntityType": "TABLE",
 		"Namespace": {
 			"DatabaseName": "Database1"
@@ -124,7 +124,7 @@
 			},
 			"Properties": {
 				"textinputformat.record.delimiter": ",",
-				"compression": "{\"type\":\"None\",\"level\":\"optimal\"}",
+				"compression": "",
 				"derivedModelAttributeInfo": "{\"attributeReferences\":{}}"
 			},
 			"Compressed": false,
