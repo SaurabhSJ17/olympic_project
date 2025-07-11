@@ -1,0 +1,22 @@
+{
+	"name": "Database2",
+	"properties": {
+		"Name": "Database2",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://olympic-data@sj5845.dfs.core.windows.net/transform_data",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "sj-synapse-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
