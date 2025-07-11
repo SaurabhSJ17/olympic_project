@@ -11,7 +11,7 @@
 		},
 		"Source": {
 			"Provider": "ADLS",
-			"Location": "abfss://olympic-data@sj5845.dfs.core.windows.net/Database1",
+			"Location": "abfss://olympic-data@sj5845.dfs.core.windows.net/transform_data",
 			"Properties": {
 				"FormatType": "csv",
 				"LinkedServiceName": "sj-synapse-WorkspaceDefaultStorage"
