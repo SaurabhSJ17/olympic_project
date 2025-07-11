@@ -1,21 +1,16 @@
 {
-	"name": "sink_Coaches",
+	"name": "source_EntriesGender",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "HttpServer1",
 			"type": "LinkedServiceReference"
-		},
-		"folder": {
-			"name": "Coaches"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileName": "Coaches.csv",
-				"folderPath": "Raw_data",
-				"fileSystem": "olympic-data"
+				"type": "HttpServerLocation",
+				"relativeUrl": "EntriesGender"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
