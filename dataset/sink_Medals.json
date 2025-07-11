@@ -1,5 +1,5 @@
 {
-	"name": "sink_EntriesGender",
+	"name": "sink_Medals",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "EntriesGender.csv",
+				"fileName": "Medals.csv",
 				"folderPath": "Raw_data",
 				"fileSystem": "olympic-data"
 			},
