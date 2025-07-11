@@ -13,7 +13,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "EntriesGender"
+				"relativeUrl": "EntriesGender.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
