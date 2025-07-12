@@ -1,0 +1,9 @@
+{
+	"name": "sj-olympic-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "03a1fe19-477c-40b6-9b12-77c8a6194ff3",
+		"tenantId": "a64338c1-895e-4052-a325-4f07792af1d5"
+	}
+}
